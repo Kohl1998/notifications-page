@@ -1,0 +1,107 @@
+body {
+    background-color: #E5E4E2;
+}
+
+img {
+    margin-right: 20px;
+}
+
+/* Center content div */
+#contentContainer {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 25px;
+    width: 800px;
+    height: 100%;
+    background: #fff;
+}
+
+/* Pushes subheading and button away from one another */
+#NotificationHeading {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Remove default styles from button */
+#markMessage {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#NotificationNumber {
+    /* Egyptian Blue */
+    background-color: 	#1434A4;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #fff;
+}
+
+#markMessage {
+    font-size: 16px;
+}
+
+/* Universal class to display all contact divs in a row */
+.contact {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.NotificationTime {
+    color: red;
+}
+
+#chessClub {
+    color: blue;
+    font-weight: bolder;
+}
+
+#markNotification {
+    color: darkslategrey;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+#Mark {
+    background-color: #E5E4E2;
+}
+
+#Angela {
+    background-color: #E5E4E2;
+}
+
+#Jacob {
+    background-color: #E5E4E2;
+}
+
+/* positions message from Rick to the right */
+#messageFromRicky {
+    background-color: #fff;
+    color: darkslategrey;
+    border: 1px solid lightgrey;
+    width: 500px;
+    margin-left: 88px;
+    padding: 10px;
+}
+
+#Kimberly {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#attribution {
+    margin-top: 100px;
+}
