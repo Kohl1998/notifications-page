@@ -1,5 +1,5 @@
 body {
-    background-color: #E5E4E2;
+    background-color: #FAF9F6;
 }
 
 img {
@@ -22,14 +22,16 @@ img {
 /* Pushes subheading and button away from one another */
 #NotificationHeading {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /* Remove default styles from button */
 #markMessage {
     border: 0;
     background-color: transparent;
+    color: #818589;
     cursor: pointer;
+    font-weight: bold;
 }
 
 #NotificationNumber {
@@ -56,6 +58,10 @@ img {
     margin-bottom: 25px;
 }
 
+.resetNotification {
+    background-color: blue;
+}
+
 .NotificationTime {
     color: red;
 }
@@ -73,14 +79,27 @@ img {
 
 #Mark {
     background-color: #E5E4E2;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
 }
 
 #Angela {
     background-color: #E5E4E2;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #Jacob {
     background-color: #E5E4E2;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /* positions message from Rick to the right */
@@ -88,6 +107,7 @@ img {
     background-color: #fff;
     color: darkslategrey;
     border: 1px solid lightgrey;
+    font-size: 20px;
     width: 500px;
     margin-left: 88px;
     padding: 10px;
@@ -103,5 +123,11 @@ img {
 }
 
 #attribution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
     margin-top: 100px;
+    margin-bottom: 0;
+    background-color: #fff;
 }
