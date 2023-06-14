@@ -131,3 +131,74 @@ img {
     margin-bottom: 0;
     background-color: #fff;
 }
+
+/* For tablet users */
+@media only screen and (max-width: 934px) {
+#attribution {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        width: 950px;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+    }
+    #attribution p{
+    color: #000;
+    font-size: 20px;
+    }
+    #attribution a {
+        font-size: 20px;
+        color: blue;
+        text-decoration: none;
+    }
+    #markMessage {
+        font-size: 20px;
+        color: #000;
+    }
+}
+
+/* For mobile users */ 
+@media only screen and (max-width: 480px) {
+    #parentContainer {
+        width: 1000px;
+    }
+    /* prevents scroll on mobile phone */
+    #contentContainer {
+        padding: 10;
+    }
+    #Notifications {
+        font-size: 30px;
+    }
+    #markMessage {
+        font-size: 22px;
+        color: #000;
+    }
+    #markNotification {
+        font-size: 22px;
+    }
+    #contacts p {
+        font-size: 26px;
+    }
+    #messageFromRicky {
+        color: #000;
+    }
+    #attribution {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        width: 950px;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+    }
+    #attribution p{
+    color: #000;
+    font-size: 28px;
+    }
+    #attribution a {
+        font-size: 28px;
+        color: blue;
+        text-decoration: none;
+    }
+}
